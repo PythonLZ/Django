@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>templates</title>
+</head>
+<body>
+      <h1>{{ name }}</h1>
+<h2>{{ city }}</h2>
+<h3>{{ alist.1 }}</h3>
+<h4>{{ dict1.python }}</h4>
+<b>{{ alist }}</b>
+{% for itew in alist %}
+    <p>{{ forloop.counter }}</p>
+{% endfor %}
+{% for itew in ist %}
+   {% empty %}
+    {{ static }}
+{% endfor %}
+</body>
+</html>
